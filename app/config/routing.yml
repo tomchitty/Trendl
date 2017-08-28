@@ -1,0 +1,4 @@
+trendl_user:
+    resource: "@TrendlUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
