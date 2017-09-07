@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, serif;
+    background-color: #FFFFFF;
+}
+
+.band_div{
+    width: 100%;
+    height: 8em;
+    text-align: center;
+    display: inline;
+    position: fixed;
+    margin-top: -1em;
+    margin-left: -0.5em;
+    background-color: #B3AFA8;
+    box-shadow: 3px 3px 6px black;
+}
+
+.band_div .login_div{
+    display: inline;
+    float: left;
+    margin-top: 1em;
+    margin-right: 1em;
+    border: 6px solid transparent;
+    outline: 1px solid #000000;
+    background-color: #E5C18E;
+    box-shadow: 1px 1px 5px black;
+    font-size: 80%;
+}
+
+.band_div .login_btn{
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    margin: 1.5em 0.6em 1em 2em;
+    height: 4em;
+    background-color: #D37838;
+    border-color: transparent;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.band_div .login_btn:hover{
+    cursor: pointer;
+    background-color: #9B4000;
+}
+
+.band_div h1{
+    display: inline-block;
+    font-family: Stencil, serif !important;
+    margin-top: 1.4em;
+    margin-left: 7em;
+}
+
+.band_div .login_div{
+    display: table-cell;
+    float: right;
+    vertical-align: middle;
+}
+
+.login_div .login_input{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login_user{
+    margin-bottom: 0.5em;
+}
+
+.test{ /*A ENLEVER*/
+    padding-top: 10em;
+    text-align: center;
+}
